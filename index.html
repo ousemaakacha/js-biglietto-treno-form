@@ -16,13 +16,13 @@
 
                 <div>
                     <label for>km da percorre</label>
-                    <input type="text" id="numberKm" required>
+                    <input type="text" id="Km" required min="1">
                 </div>
 
                 <div>
                     <label for>Fascia di etá</label>
                     <select name id="age" required>
-                        <option value="Minorenne">Minorenne</option>
+                        <option value="minorenne">Minorenne</option>
                         <option value="maggiorenne">maggiorenne</option>
                         <option value="over65">Over 65</option>
                     </select>
@@ -35,8 +35,8 @@
         </div>
 
         <h2>IL TUO BIGLIETTO</h2>
-        <div id="ticket">
-            <table>
+        <div id="ticket" style="display: none;">
+            <table border="1" cellpadding="5">
                 <thead>
                     <tr>
                         <th>DETTAGLIO PASSEGERO</th>
