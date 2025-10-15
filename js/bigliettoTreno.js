@@ -14,15 +14,15 @@ generaBtn.addEventListener("click", () => {
 
   //  inizio  a calcolare il prezzo base
   let price = km * 0.21;
-  let ticket_type = "Biglietto standard";
+  let ticketType = "Biglietto standard";
 
   //   inizio a scrivere codice condizionale per gli sconti
   if (age === "minorenne") {
     price * 0.8;
-    ticket_type = "SConto 20% per minorenni";
+    ticketType = "SConto 20% per minorenni";
   } else if (age === "over65") {
     price * 0.6;
-    ticket_type = "sconto 40% over 65";
+    ticketType = "sconto 40% over 65";
   }
 
   /* -- da qua in poi inizio il codice per la visulizzazione dek biglietto -- */
