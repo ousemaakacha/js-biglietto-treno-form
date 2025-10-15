@@ -29,7 +29,14 @@ generaBtn.addEventListener("click", () => {
 
   /* -- da qua in poi inizio il codice per la visulizzazione dek biglietto -- */
 
-  //   inizio con la creazione di valori random sia per la num,or carzzo che per il codice
+  //   inizio con la creazione di valori random sia per la numero carzzo che per il codice
   const wagon = Math.floor(Math.random() * 7) + 1;
   const codeCP = Math.floor(Math.random() * 50000) + 10000;
+
+  //  comincio a stampre gli output
+  document.getElementById("person").textContent = name;
+  document.getElementById("ticketType").textContent = ticketType;
+  document.getElementById("wagon").textContent = wagon;
+  document.getElementById("codeCP").textContent = codeCP;
+  document.getElementById("price").textContent = price.toFixed(2);
 });
