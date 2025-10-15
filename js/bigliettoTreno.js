@@ -3,6 +3,8 @@ console.log("biglietto treno chuchuuu");
 // inizioa dichiarare le costanti utilizzando il getelem
 const generaBtn = document.getElementById("genera");
 const annullaBtn = document.getElementById("annulla");
+// aggiungo const per il div contente la tabella
+const ticketDiv = document.getElementById("ticket");
 
 // comincio a formulare il event listener per il genaraBtn
 
