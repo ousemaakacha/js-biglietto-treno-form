@@ -10,21 +10,21 @@
         <div>
             <form id="ticketForm">
                 <div>
-                    <label for id="name">Nome e Cognome</label>
-                    <input type="text">
+                    <label>Nome e Cognome</label>
+                    <input type="text" id="name" required>
                 </div>
 
                 <div>
                     <label for>km da percorre</label>
-                    <input type="text" id="numberKm">
+                    <input type="text" id="numberKm" required>
                 </div>
 
                 <div>
                     <label for>Fascia di etá</label>
-                    <select name id="age">
-                        <option value>Minorenne</option>
-                        <option value>maggiorenne</option>
-                        <option value>Over 65</option>
+                    <select name id="age" required>
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="maggiorenne">maggiorenne</option>
+                        <option value="over65">Over 65</option>
                     </select>
                 </div>
                 <div>
