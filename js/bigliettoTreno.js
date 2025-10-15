@@ -28,4 +28,8 @@ generaBtn.addEventListener("click", () => {
   }
 
   /* -- da qua in poi inizio il codice per la visulizzazione dek biglietto -- */
+
+  //   inizio con la creazione di valori random sia per la num,or carzzo che per il codice
+  const wagon = Math.floor(Math.random() * 7) + 1;
+  const codeCP = Math.floor(Math.random() * 50000) + 10000;
 });
