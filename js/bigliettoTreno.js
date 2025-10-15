@@ -24,4 +24,6 @@ generaBtn.addEventListener("click", () => {
     price * 0.6;
     ticket_type = "sconto 40% over 65";
   }
+
+  /* -- da qua in poi inizio il codice per la visulizzazione dek biglietto -- */
 });
